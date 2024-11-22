@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_CheckoutProcess">
+        <methods>
+          <include name="launchAmazon"/>
+          <include name="quitWindow"/>
+          <include name="checkoutProcessMethod"/>
+        </methods>
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_CheckoutProcess -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_Coupon">
+        <methods>
+          <include name="couponUse"/>
+          <include name="launchAmazon"/>
+          <include name="quitWindow"/>
+        </methods>
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_Coupon -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_addingAndRemovingItems">
+        <methods>
+          <include name="addingAndRemovingItems"/>
+          <include name="launchAmazon"/>
+          <include name="quitWindow"/>
+        </methods>
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_addingAndRemovingItems -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

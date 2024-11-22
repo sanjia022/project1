@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SeleniumPackage1.SeleniumProject1.EachPaymentmethod">
+        <methods>
+          <include name="launchAmazon"/>
+          <include name="quitWindow"/>
+          <include name="eachpaymentmethods"/>
+        </methods>
+      </class> <!-- SeleniumPackage1.SeleniumProject1.EachPaymentmethod -->
+      <class name="SeleniumPackage1.SeleniumProject1.amz_Login_incorrect_Cred">
+        <methods>
+          <include name="launchAmazon"/>
+          <include name="quitWindow"/>
+          <include name="loginToAmazon_incorrect_cred"/>
+        </methods>
+      </class> <!-- SeleniumPackage1.SeleniumProject1.amz_Login_incorrect_Cred -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_cart_withoutLogin">
+        <methods>
+          <include name="launchAmazon"/>
+          <include name="quitWindow"/>
+          <include name="cartpage_without_login"/>
+        </methods>
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_cart_withoutLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[testcase is passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-22T18:38:17 EST" name="Suite" finished-at="2024-11-22T18:42:44 EST" duration-ms="266585">
+    <groups>
+      <group name="smoke">
+        <method signature="amz_Login_incorrect_Cred.loginToAmazon_incorrect_cred()[pri:0, instance:SeleniumPackage1.SeleniumProject1.amz_Login_incorrect_Cred@22a637e7]" name="loginToAmazon_incorrect_cred" class="SeleniumPackage1.SeleniumProject1.amz_Login_incorrect_Cred"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-11-22T18:38:17 EST" name="Test" finished-at="2024-11-22T18:42:44 EST" duration-ms="266585">
+      <class name="SeleniumPackage1.SeleniumProject1.amz_Login_Correct_cred">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.amz_Login_Correct_cred@7f010382]" started-at="2024-11-22T18:38:17 EST" name="launchAmazon" finished-at="2024-11-22T18:38:22 EST" duration-ms="5251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="loginToAmazon_correct_cred()[pri:0, instance:SeleniumPackage1.SeleniumProject1.amz_Login_Correct_cred@7f010382]" started-at="2024-11-22T18:38:22 EST" name="loginToAmazon_correct_cred" finished-at="2024-11-22T18:38:35 EST" duration-ms="13162" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToAmazon_correct_cred -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.amz_Login_Correct_cred@7f010382]" started-at="2024-11-22T18:38:37 EST" name="quitWindow" finished-at="2024-11-22T18:38:37 EST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.amz_Login_Correct_cred -->
+      <class name="SeleniumPackage1.SeleniumProject1.amz_Login_incorrect_Cred">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.amz_Login_incorrect_Cred@22a637e7]" started-at="2024-11-22T18:38:37 EST" name="launchAmazon" finished-at="2024-11-22T18:38:43 EST" duration-ms="5900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="loginToAmazon_incorrect_cred()[pri:0, instance:SeleniumPackage1.SeleniumProject1.amz_Login_incorrect_Cred@22a637e7]" started-at="2024-11-22T18:38:43 EST" name="loginToAmazon_incorrect_cred" finished-at="2024-11-22T18:38:46 EST" duration-ms="2545" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToAmazon_incorrect_cred -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.amz_Login_incorrect_Cred@22a637e7]" started-at="2024-11-22T18:38:47 EST" name="quitWindow" finished-at="2024-11-22T18:38:47 EST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.amz_Login_incorrect_Cred -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_Coupon">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_Coupon@5ae50ce6]" started-at="2024-11-22T18:41:39 EST" name="launchAmazon" finished-at="2024-11-22T18:41:44 EST" duration-ms="5362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="couponUse()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_Coupon@5ae50ce6]" started-at="2024-11-22T18:41:44 EST" name="couponUse" finished-at="2024-11-22T18:42:00 EST" duration-ms="16450" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- couponUse -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_Coupon@5ae50ce6]" started-at="2024-11-22T18:42:01 EST" name="quitWindow" finished-at="2024-11-22T18:42:01 EST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_Coupon -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_Edit">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_Edit@2473d930]" started-at="2024-11-22T18:39:51 EST" name="launchAmazon" finished-at="2024-11-22T18:39:54 EST" duration-ms="3672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="EditProfile()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_Edit@2473d930]" started-at="2024-11-22T18:39:54 EST" name="EditProfile" finished-at="2024-11-22T18:40:07 EST" duration-ms="12436" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EditProfile -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_Edit@2473d930]" started-at="2024-11-22T18:40:07 EST" name="quitWindow" finished-at="2024-11-22T18:40:07 EST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_Edit -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_searchandFiltering">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_searchandFiltering@1d119efb]" started-at="2024-11-22T18:39:03 EST" name="launchAmazon" finished-at="2024-11-22T18:39:09 EST" duration-ms="5686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="searchingAndFiltering()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_searchandFiltering@1d119efb]" started-at="2024-11-22T18:39:09 EST" name="searchingAndFiltering" finished-at="2024-11-22T18:39:14 EST" duration-ms="5309" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchingAndFiltering -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_searchandFiltering@1d119efb]" started-at="2024-11-22T18:39:14 EST" name="quitWindow" finished-at="2024-11-22T18:39:15 EST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_searchandFiltering -->
+      <class name="SeleniumPackage1.SeleniumProject1.EachPaymentmethod">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.EachPaymentmethod@6f96c77]" started-at="2024-11-22T18:42:01 EST" name="launchAmazon" finished-at="2024-11-22T18:42:06 EST" duration-ms="5335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="eachpaymentmethods()[pri:0, instance:SeleniumPackage1.SeleniumProject1.EachPaymentmethod@6f96c77]" started-at="2024-11-22T18:42:06 EST" name="eachpaymentmethods" finished-at="2024-11-22T18:42:22 EST" duration-ms="15969" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- eachpaymentmethods -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.EachPaymentmethod@6f96c77]" started-at="2024-11-22T18:42:22 EST" name="quitWindow" finished-at="2024-11-22T18:42:23 EST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.EachPaymentmethod -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_addProducts">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_addProducts@49b0b76]" started-at="2024-11-22T18:40:26 EST" name="launchAmazon" finished-at="2024-11-22T18:40:31 EST" duration-ms="4581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="addProductsToTheCart()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_addProducts@49b0b76]" started-at="2024-11-22T18:40:31 EST" name="addProductsToTheCart" finished-at="2024-11-22T18:40:51 EST" duration-ms="20182" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProductsToTheCart -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_addProducts@49b0b76]" started-at="2024-11-22T18:40:51 EST" name="quitWindow" finished-at="2024-11-22T18:40:52 EST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_addProducts -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_product_sorted">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_product_sorted@35047d03]" started-at="2024-11-22T18:40:07 EST" name="launchAmazon" finished-at="2024-11-22T18:40:15 EST" duration-ms="7359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="product_sorted()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_product_sorted@35047d03]" started-at="2024-11-22T18:40:15 EST" name="product_sorted" finished-at="2024-11-22T18:40:25 EST" duration-ms="10760" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- product_sorted -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_product_sorted@35047d03]" started-at="2024-11-22T18:40:26 EST" name="quitWindow" finished-at="2024-11-22T18:40:26 EST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_product_sorted -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_addingAndRemovingItems">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_addingAndRemovingItems@4c9f8c13]" started-at="2024-11-22T18:41:07 EST" name="launchAmazon" finished-at="2024-11-22T18:41:12 EST" duration-ms="4692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="addingAndRemovingItems()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_addingAndRemovingItems@4c9f8c13]" started-at="2024-11-22T18:41:12 EST" name="addingAndRemovingItems" finished-at="2024-11-22T18:41:38 EST" duration-ms="26253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addingAndRemovingItems -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_addingAndRemovingItems@4c9f8c13]" started-at="2024-11-22T18:41:38 EST" name="quitWindow" finished-at="2024-11-22T18:41:39 EST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_addingAndRemovingItems -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_cart_withoutLogin">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_cart_withoutLogin@6fe7aac8]" started-at="2024-11-22T18:38:47 EST" name="launchAmazon" finished-at="2024-11-22T18:38:52 EST" duration-ms="5096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="cartpage_without_login()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_cart_withoutLogin@6fe7aac8]" started-at="2024-11-22T18:38:52 EST" name="cartpage_without_login" finished-at="2024-11-22T18:39:02 EST" duration-ms="10337" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cartpage_without_login -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_cart_withoutLogin@6fe7aac8]" started-at="2024-11-22T18:39:03 EST" name="quitWindow" finished-at="2024-11-22T18:39:03 EST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_cart_withoutLogin -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_product_detail">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_product_detail@769f71a9]" started-at="2024-11-22T18:40:52 EST" name="launchAmazon" finished-at="2024-11-22T18:40:57 EST" duration-ms="5291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="product_details()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_product_detail@769f71a9]" started-at="2024-11-22T18:40:57 EST" name="product_details" finished-at="2024-11-22T18:41:06 EST" duration-ms="9330" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- product_details -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_product_detail@769f71a9]" started-at="2024-11-22T18:41:07 EST" name="quitWindow" finished-at="2024-11-22T18:41:07 EST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_product_detail -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_Search">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_Search@659a969b]" started-at="2024-11-22T18:39:15 EST" name="launchAmazon" finished-at="2024-11-22T18:39:19 EST" duration-ms="4322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="searchItem()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_Search@659a969b]" started-at="2024-11-22T18:39:19 EST" name="searchItem" finished-at="2024-11-22T18:39:23 EST" duration-ms="4259" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_Search@659a969b]" started-at="2024-11-22T18:39:24 EST" name="quitWindow" finished-at="2024-11-22T18:39:24 EST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_Search -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_Review_items">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_Review_items@76908cc0]" started-at="2024-11-22T18:39:24 EST" name="launchAmazon" finished-at="2024-11-22T18:39:29 EST" duration-ms="5060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="review_itmes()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_Review_items@76908cc0]" started-at="2024-11-22T18:39:29 EST" name="review_itmes" finished-at="2024-11-22T18:39:50 EST" duration-ms="20888" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- review_itmes -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_Review_items@76908cc0]" started-at="2024-11-22T18:39:50 EST" name="quitWindow" finished-at="2024-11-22T18:39:51 EST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_Review_items -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amazon_CheckoutProcess">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_CheckoutProcess@be64738]" started-at="2024-11-22T18:42:23 EST" name="launchAmazon" finished-at="2024-11-22T18:42:28 EST" duration-ms="5131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="checkoutProcessMethod()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_CheckoutProcess@be64738]" started-at="2024-11-22T18:42:28 EST" name="checkoutProcessMethod" finished-at="2024-11-22T18:42:43 EST" duration-ms="15232" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutProcessMethod -->
+        <test-method is-config="true" signature="quitWindow()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amazon_CheckoutProcess@be64738]" started-at="2024-11-22T18:42:43 EST" name="quitWindow" finished-at="2024-11-22T18:42:44 EST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWindow -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amazon_CheckoutProcess -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
